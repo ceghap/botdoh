@@ -1,0 +1,23 @@
+{
+  "name": "botdoh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w --skipLibCheck",
+    "dev": "nodemon --exec ts-node ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  }
+}
